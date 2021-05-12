@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+
+    <title>Weather Page</title>
+    <link rel="stylesheet" href="weather.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="weather.js"></script>
+</head>
+<body>
+
+    <div class="container"> 
+        <div class="weather-container"> 
+            <div class="weather-header">
+                <!-- <p>weather-header</p>  --> 
+                <span class= "degreeText" id="degreeText">15°</span>
+                <div>
+                    <span class= "locationText" id="city">London</span>
+                    <div id="clockbox"></div>
+                </div>
+               
+                
+                <figure class= "imageup">
+                <img class="main" src=/images/i.cloud.svg >
+                <figcaption id ="description" class= "description">Clouds</figcaption>
+                </figure>
+         
+               
+            </div>
+
+            
+          
+
+        </div>
+
+        <div class="right-container"> 
+            <div class="location-container">
+
+                
+                <div class="search__container">
+                    <p class="search__title">
+                      
+                    </p>
+                    <input id="addCity" class="search__input" type="text" placeholder="Search" required="" required maxlength="15">
+                </div>
+                
+
+            </div>
+
+            <div class="details-container">
+                <ul class ="one">
+                
+                    <li><span class = "left"> Min:</span> <span class= minTemp id="minTemp">10°</span> </li>
+                    <li><span class = "left"> Max:</span> <span class= maxTemp id="maxTemp">20°</span> </li>
+                    <li><span class = "left"> Pressure:</span><span class= press id="press">1000</span></li>
+                </ul>      
+                <ul class ="two" >
+                    <li>Tree : <span class= tree>High</span> </li>
+                    <li>Grass : <span class= weed>Low</span> </li>
+                    <li>Weed: <span class= grass>None</span></li>
+                </ul>
+                  
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
