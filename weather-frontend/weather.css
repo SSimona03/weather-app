@@ -89,16 +89,20 @@ li{
 }
 
 
-.tree{
+.high{
     color: red;
 }
 
-.weed{
+.moderate{
     color: orange;
 }
 
-.grass{
+.low{
     color: green;
+}
+
+.none{
+    color: rgb(143, 145, 143);
 }
 
 .imageup{
