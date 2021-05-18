@@ -116,7 +116,6 @@ window.onload = async (event) => {
         const pollenData = await getPollen(cityName);
         changePollenData(pollenData);
 
-
         console.log(` ${event.target.value}`);
 
       } catch (err) {
